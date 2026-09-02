@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vista Tabla | Cátedra Paradigmas 3</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+  <header class="cabecera">
+    <span class="logo">Cátedra Paradigmas 3</span>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="listado_tabla.html" class="activo">Vista Tabla</a></li>
+        <li><a href="listado_box.html">Vista Tarjetas</a></li>
+        <li><a href="comprar.html">Comprar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contenido">
+    <section class="panel">
+      <h1>Catálogo General (Vista Tabular)</h1>
+
+      <p>
+        La siguiente estructura utiliza la etiqueta semántica <code>&lt;table&gt;</code>
+        para organizar los productos de manera formal. En pantallas pequeñas, se
+        habilita una barra de desplazamiento horizontal para evitar que se desborde
+        la interfaz:
+      </p>
+
+      <div class="contenedor-tabla">
+        <table class="tabla-productos">
+          <thead>
+            <tr>
+              <th>Código</th>
+              <th>Nombre del Producto</th>
+              <th>Categoría</th>
+              <th>Precio Unitario</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>#001</td>
+              <td>Placa de Video RX 7800 XT</td>
+              <td>Hardware</td>
+              <td>$550.00</td>
+              <td><a href="detalle_placa.html" class="enlace-detalle">Ver Detalle</a></td>
+            </tr>
+            <tr>
+              <td>#002</td>
+              <td>Procesador AMD Ryzen 7 7800X3D</td>
+              <td>Hardware</td>
+              <td>$420.00</td>
+              <td><a href="detalle_procesador.html" class="enlace-detalle">Ver Detalle</a></td>
+            </tr>
+            <tr>
+              <td>#003</td>
+              <td>Memoria RAM DDR5 32GB (2x16GB)</td>
+              <td>Hardware</td>
+              <td>$140.00</td>
+              <td><a href="detalle_memoria.html" class="enlace-detalle">Ver Detalle</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p>&copy; 2026 - Universidad Tecnológica Nacional. Cátedra de Paradigmas y Lenguajes de Programación 3.</p>
+  </footer>
+
+</body>
+
+</html>
